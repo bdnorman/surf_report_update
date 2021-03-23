@@ -47,6 +47,6 @@ numbers to send updates to. In order to actually check spots for status updates,
 the `surf_bot/send_updates.py` script should be run in a cron job with desired update
 frequency.
 ```
-*/5 * * * * source /path/to/surfline/bot/virutalenv/bin/activate && python /path/to/cloned/repo/surf_bot/send_updates.py
+*/5 * * * * source /path/to/surf/bot/virutalenv/bin/activate && python /path/to/cloned/repo/surf_bot/send_updates.py
 ```
 Make sure to activate your `surf_bot` environment in the cron job.
